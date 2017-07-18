@@ -1,5 +1,6 @@
 ENV['RACK_ENV'] = 'test'
 
+require_relative 'web_helpers.rb'
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
 
 
