@@ -31,9 +31,6 @@ class Battle < Sinatra::Base
   		erb :attack
 	end
 
-	post '/attack' do
-		"Attack successful"
-	end
 
 
 	run! if app_file == $0
